@@ -2,23 +2,18 @@
 	"name": "document-ui",
 	"version": "1.0.0",
 	"description": "A Component Library for Vue.js.",
-	"main": "src/index.js",
-	"files": [
-		"src"
+	"keywords": [
+		"document-ui"
 	],
+	"main": "src/index.js",
+	"bugs": {
+		"url": "https://github.com/caojiahai/customUI/issues",
+		"email": "1041630444@qq.com"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/caojiahai/customUI.git"
 	},
-	"keywords": [
-		"eleme",
-		"vue",
-		"components"
-	],
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/ElemeFE/element/issues"
-	},
-	"unpkg": "lib/index.js",
-	"style": "lib/theme-chalk/index.css"
+	"author": "caojiahai",
+	"license": "ISC"
 }
