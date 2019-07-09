@@ -1,0 +1,146 @@
+/**
+ * @desc button.css
+ * @date 2019/6/20
+ */
+.dl-button.is-round {
+	border-radius: 20px;
+	padding: 12px 23px;
+}
+.dl-button {
+	display: inline-block;
+	line-height: 1;
+	white-space: nowrap;
+	cursor: pointer;
+	background: #FFF;
+	border: 1px solid #DCDFE6;
+	color: #606266;
+	-webkit-appearance: none;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	outline: 0;
+	margin: 0;
+	-webkit-transition: .1s;
+	transition: .1s;
+	font-weight: 500;
+	-moz-user-select: none;
+	padding: 12px 20px;
+	font-size: 14px;
+	border-radius: 4px;
+}
+.dl-button,
+.dl-checkbox {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+.dl-button+.dl-button {
+	margin-left: 10px;
+}
+.dl-button--primary {
+	color: #fff;
+	background-color: #FF9900;
+	border-color: #FF9900;
+}
+.dl-button--uncommon {
+	color: #fff;
+	background-color: #FF6A02;
+	border-color: #FF6A02;
+}
+.dl-button.is-round {
+	border-radius: 20px;
+	padding: 12px 23px;
+}
+.dl-button.is-circle {
+	border-radius: 50%;
+	padding: 12px;
+}
+.dl-button--text {
+	border-color: transparent;
+	color: #FF9900;
+	background: transparent;
+	padding-left: 0;
+	padding-right: 0;
+}
+.dl-button.is-disabled,
+.dl-button.is-disabled:focus,
+.dl-button.is-disabled:hover {
+	color: #c0c4cc;
+	cursor: not-allowed;
+	background-image: none;
+	background-color: #fff;
+	border-color: #ebeef5;
+}
+.dl-button--primary.is-disabled,
+.dl-button--primary.is-disabled:active,
+.dl-button--primary.is-disabled:focus,
+.dl-button--primary.is-disabled:hover {
+	color: #fff;
+	background-color: #a0cfff;
+	border-color: #a0cfff;
+}
+.dl-button--primary:focus,
+.dl-button--primary:hover {
+	background: #FFBA00;
+	border-color: #FFBA00;
+	color: #fff;
+}
+.dl-button--primary.is-active,
+.dl-button--primary:active {
+	background: #FF9900;
+	border-color: #FF9900;
+	color: #fff;
+}
+.dl-button--primary:active {
+	outline: none;
+}
+.dl-button--uncommon.is-disabled,
+.dl-button--uncommon.is-disabled:active,
+.dl-button--uncommon.is-disabled:focus,
+.dl-button--uncommon.is-disabled:hover {
+	color: #fff;
+	background-color: #a0cfff;
+	border-color: #a0cfff;
+}
+.dl-button--uncommon:focus,
+.dl-button--uncommon:hover {
+	background: #FF6A02;
+	border-color: #FF6A02;
+	color: #fff;
+}
+.dl-button--uncommon.is-active,
+.dl-button--uncommon:active {
+	background: #FF6A02;
+	border-color: #FF6A02;
+	color: #fff;
+}
+.dl-button--uncommon:active {
+	outline: none;
+}
+.dl-button:active {
+	border-color: #FF9900;
+	outline: 0;
+}
+.dl-button--medium {
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.dl-button--small {
+    padding: 9px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.dl-button--mini {
+    padding: 7px 15px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+.dl-button--small.is-round {
+    padding: 9px 15px;
+}
+.dl-button--medium.is-round {
+   	padding: 10px 20px;
+}
+.dl-button--mini.is-round {
+    padding: 7px 15px;
+}

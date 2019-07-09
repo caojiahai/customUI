@@ -1,0 +1,136 @@
+/**
+ * @desc icon.css
+ * @date 2019/6/20
+ */
+
+@font-face {
+  font-family: 'custom-icons';
+  src: url('./fonts/custom-icons.woff') format('woff'), /* chrome, firefox */
+       url('./fonts/custom-icons.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  font-weight: normal;
+  font-style: normal
+}
+[class^="dl-icon-"], [class*=" dl-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'custom-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.dl-icon-add:before {
+	content: "\C002";
+}
+.dl-icon-sure:before {
+	content: "\C003";
+}
+.dl-icon-close:before {
+	content: "\C004";
+}
+.dl-icon-arrow-left:before {
+	content: "\C005";
+}
+.dl-icon-arrow-down:before {
+	content: "\C006";
+}
+.dl-icon-arrow-right:before {
+	content: "\C007";
+}
+.dl-icon-arrow-up:before {
+	content: "\C008";
+}
+.dl-icon-delete:before {
+	content: "\C009";
+}
+.dl-icon-star-off:before {
+	content: "\C010";
+}
+.dl-icon-quit:before {
+	content: "\C011";
+}
+.dl-icon-postcard:before {
+	content: "\C012";
+}
+.dl-icon-link:before {
+	content: "\C013";
+}
+.dl-icon-wallet:before {
+	content: "\C014";
+}
+.dl-icon-money:before {
+	content: "\C015";
+}
+.dl-icon-search:before {
+	content: "\C016";
+}
+.dl-icon-camera:before {
+	content: "\C017";
+}
+.dl-icon-upload:before {
+	content: "\C018";
+}
+.dl-icon-download:before {
+	content: "\C019";
+}
+.dl-icon-caret-top:before {
+	content: "\C020";
+}
+.dl-icon-caret-bottom:before {
+	content: "\C021";
+}
+.dl-icon-caret-right:before {
+	content: "\C022";
+}
+.dl-icon-caret-left:before {
+	content: "\C023";
+}
+.dl-icon-share:before {
+	content: "\C024";
+}
+.dl-icon-more:before {
+	content: "\C025";
+}
+.dl-icon-phone:before {
+	content: "\C026";
+}
+.dl-icon-star-on:before {
+	content: "\C027";
+}
+.dl-icon-camera-solid:before {
+	content: "\C028";
+}
+.dl-icon-user:before {
+	content: "\C029";
+}
+.dl-icon-set:before {
+	content: "\C030";
+}
+.dl-icon-order:before {
+	content: "\C031";
+}
+.dl-icon-video-play:before {
+	content: "\C032";
+}
+.dl-icon-video-pause:before {
+	content: "\C033";
+}
+.dl-icon-upload-solid:before {
+	content: "\C034";
+}
+.dl-icon-sort-down:before {
+	content: "\C035";
+}
+.dl-icon-sort-up:before {
+	content: "\C036";
+}
+.dl-icon-delete-solid:before {
+	content: "\C037";
+}
